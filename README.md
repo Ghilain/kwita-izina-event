@@ -14,12 +14,12 @@ Capstone project for Module 1 At Microverse
 
 ## Live Demo 
 
-Live Demo: [Click here for Live Demo](https://ghilain.github.io/capstone1/)
+Live Demo: [Click here for Live Demo](https://ghilain.github.io/capstone1/index.html)
 
 
 ## Description video
 
-()
+(https://www.loom.com/share/c0ac12e8bf324ec685a0e857ce12c13d)
 
 ## Getting Started
 
@@ -62,7 +62,7 @@ set up on github pages
 👤 **Sangwa Didier**
 
 - GitHub: [Ghilain Iishimwe](https://github.com/Ghilain)
-- Twitter: [@GhilainIshimwe](https://twitter.com/GhilainIshimwe)
+- Twitter: [GhilainIshimwe](https://twitter.com/GhilainIshimwe)
 - LinkedIn: [Ghilain Ishimwe](https://www.linkedin.com/in/ghilain-ishimwe-067a5b1b4/)
 
 ## 🤝 Contributing
