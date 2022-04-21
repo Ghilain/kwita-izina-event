@@ -1,11 +1,8 @@
-# Capstone
-Capstone project for Module 1 At Microverse
+# KWITA IZINA CEREMONY 2022
 
-
-
-# HTML/CSS & JavaScript capstone project - Web Development Course page
-
-> A web app to showcase web development course with all the contents and instructors.
+The Kwita Izina gorilla naming ceremony is modelled off a centuries-old tradition
+in which Rwandans name their children in the presence of family and friends.
+And happen every year.
 
 ## Built With
 

@@ -13,9 +13,7 @@ closeMenu.addEventListener('click', () => {
 
 // Object Featured speaker
 
-const cardList = document.getElementById('pop');
-
-const projectsList = [
+const speakersList = [
   {
     featuredImage: './image/meddy.png',
     name: 'Ngabo Meddy',
@@ -48,29 +46,55 @@ const projectsList = [
     and producer.`,
   },
 
+  {
+    featuredImage: './image/angelina-jolie.png',
+    name: 'Angelina Jolie',
+    title: 'American actress',
+    description: 'Angelina Jolie DCMG is an American actress, filmmaker, and humanitarian.',
+  },
+
+  {
+    featuredImage: './image/kevin-hart.jpg',
+    name: 'Kevin Hart',
+    title: 'American comedian',
+    description: `Kevin Darnell Hart is an American stand-up comedian and actor. 
+                  Born and raised in Philadelphia, Pennsylvania.`,
+  },
 ];
 
-const projectCards = projectsList.map((cards) => `
-<li>
-              <div class="speakerbox">
-              <div class="speaker1">
-                  <img src="${cards.featuredImage}" class=""/>
-              </div>
-            <div class="temp2">
-              <div class="pad">
-                <h3 class="work card-heading">${cards.name}</h3>
-                <h5 class="text text-2">
-                ${cards.title}
-                </h5>
-              </div>
-              <div class="line"></div>
-              <p>
-              ${cards.description}
-              </p>
-            </div>
-          </div>
-          </li>
+const grid = document.querySelector('#pop');
+function createGridItem({
+  featuredImage, name, title, description,
+}) {
+  const gridItem = document.createElement('div');
+  gridItem.classList.add('speaker-bar');
+  gridItem.innerHTML = `
+  <li>
+  <div class="speakerbox">
+  <div class="speaker1">
+      <img src="${featuredImage}" alt="${name} image" class=""/>
+  </div>
+<div class="temp2">
+  <div class="pad">
+    <h3 class="work card-heading">${name}</h3>
+    <h5 class="text text-2">
+    ${title}
+    </h5>
+  </div>
+  <div class="line"></div>
+  <p>
+  ${description}
+  </p>
+</div>
+</div>
+</li>
+    `;
 
-`).join('');
+  grid.appendChild(gridItem);
+}
 
-cardList.innerHTML += projectCards;
+if (grid) {
+  speakersList.forEach((instr) => {
+    createGridItem(instr);
+  });
+}

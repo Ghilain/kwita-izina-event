@@ -2,6 +2,12 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro {
+  display: none;
 }
 
 li {
@@ -39,7 +45,6 @@ li {
 
 .title-h1 {
   color: #ec5242;
-  font-family: "Poppins", sans-serif;
   font-size: 38px;
   font-weight: bolder;
   margin-bottom: 20px;
@@ -49,7 +54,6 @@ li {
 
 .abouttitle-h1 {
   color: #ec5242;
-  font-family: "Poppins", sans-serif;
   font-size: 38px;
   font-weight: bolder;
   margin-bottom: 20px;
@@ -58,7 +62,6 @@ li {
 }
 
 .title-h2 {
-  font-family: "Poppins", sans-serif;
   font-size: 22px;
   font-weight: 400;
   color: #ec5242;
@@ -66,7 +69,6 @@ li {
 
 .abouttitle-h2 {
   display: block;
-  font-family: "Poppins", sans-serif;
   font-size: 22px;
   font-weight: 400;
   color: #ec5242;
@@ -90,7 +92,6 @@ li {
 
 .time-venue > h4 {
   color: #585858;
-  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: bolder;
   margin-bottom: 1px;
@@ -98,7 +99,6 @@ li {
 
 .time-venue > h6 {
   color: #585858;
-  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: bolder;
   padding-bottom: 46px;
@@ -112,7 +112,6 @@ li {
 
 .programtitle {
   text-align: center;
-  font-family: "Poppins", sans-serif;
   font-size: 15px;
   color: #fff;
   padding-top: 30px;
@@ -157,7 +156,6 @@ li {
 .titleprogram {
   width: 35%;
   color: #ec5242;
-  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 500;
   padding-right: 5%;
@@ -166,7 +164,6 @@ li {
 .programdescr {
   width: 55%;
   padding-right: 5%;
-  font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: 300;
   color: whitesmoke;
@@ -204,7 +201,6 @@ li {
 
 .speaktitle > h2 {
   color: #272a31;
-  font-family: "Poppins", sans-serif;
   font-size: 26px;
   font-weight: bolder;
   margin-top: 60px;
@@ -249,7 +245,6 @@ li {
 
 .pad h3 {
   color: #272a31;
-  font-family: "Poppins", sans-serif;
   font-size: 26px;
   font-weight: bolder;
   margin-bottom: 5px;
@@ -257,7 +252,6 @@ li {
 
 .pad h5 {
   color: #ec5242;
-  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: italic;
   font-weight: bold;
@@ -266,7 +260,6 @@ li {
 
 .temp2 p {
   color: #272a31;
-  font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-weight: 400;
   margin-bottom: 5px;
@@ -313,9 +306,7 @@ li {
 }
 
 .copyrighttext p {
-  color: var(--dark);
   margin-bottom: 20px;
-  font-family: var(--title_font);
 }
 
 .Aboutsummit .descript p {
@@ -336,7 +327,6 @@ li {
 
 .creative .programtitle {
   text-align: center;
-  font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: #585858;
   font-weight: 600;
@@ -376,7 +366,6 @@ li {
 
 .pastceremony .titleprogram h3 {
   color: #272a31;
-  font-family: "Poppins", sans-serif;
   font-size: 26px;
   font-weight: 600;
 }
@@ -432,7 +421,6 @@ li {
 
 .pastceremony .lastceremony .ceremonylast .pastyear h1 {
   color: white;
-  font-family: "Poppins", sans-serif;
   font-size: 36px;
   font-weight: bolder;
   margin-bottom: -10px;
@@ -444,7 +432,6 @@ li {
 
 .pastceremony .lastceremony .ceremonylast p {
   color: white;
-  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -465,7 +452,6 @@ li {
 
 .partnertitle h2 {
   color: rgb(196, 196, 196);
-  font-family: "Poppins", sans-serif;
   font-size: 26px;
   font-weight: 400;
   text-align: center;
@@ -662,7 +648,6 @@ li {
     font-size: 14px;
     color: white;
     text-decoration: none;
-    font-family: popins, sans-serif;
     margin-top: 20px;
   }
 
@@ -724,8 +709,7 @@ li {
     display: inline;
     list-style-type: none;
     margin-left: 6%;
-    color: var(--dark);
-    font-family: var(--body_font);
+    color: #272a31;
   }
 
   .linkmenu ul li a {
@@ -806,7 +790,6 @@ li {
 
   .pad h3 {
     color: #272a31;
-    font-family: "Poppins", sans-serif;
     font-size: 17px;
     font-weight: bolder;
     margin-bottom: -17px;
@@ -814,7 +797,6 @@ li {
 
   .pad h5 {
     color: #ec5242;
-    font-family: "Poppins", sans-serif;
     font-size: 12px;
     font-style: italic;
     font-weight: bold;
@@ -861,7 +843,6 @@ li {
 
   .abouttitle-h1 {
     color: #ec5242;
-    font-family: "Poppins", sans-serif;
     font-size: 68px;
     font-weight: 900;
     margin-bottom: 20px;
