@@ -1,0 +1,924 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.descrp21 {
+  background-color: #e7e7e7;
+  margin-top: -35px;
+  padding-top: 20px;
+}
+
+.index-header img {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.backimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  z-index: -1;
+  height: 51%;
+}
+
+.summit {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.829);
+  background-size: cover;
+}
+
+.title-h1 {
+  color: #ec5242;
+  font-size: 38px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  padding: 2%;
+  margin-top: 1%;
+}
+
+.abouttitle-h1 {
+  color: #ec5242;
+  font-size: 38px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  padding: 2%;
+  margin-top: 1%;
+}
+
+.title-h2 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #ec5242;
+}
+
+.abouttitle-h2 {
+  display: block;
+  font-size: 22px;
+  font-weight: 400;
+  color: #ec5242;
+}
+
+.descript {
+  margin: 3%;
+  width: 93%;
+  border: 3px solid #fff;
+}
+
+.descrp {
+  background-color: #e7e7e7;
+  width: 100%;
+}
+
+.time-venue {
+  margin: 3%;
+  width: 93%;
+}
+
+.time-venue > h4 {
+  color: #585858;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 1px;
+}
+
+.time-venue > h6 {
+  color: #585858;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-bottom: 46px;
+}
+
+.main-program {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+}
+
+.programtitle {
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.programline {
+  height: 2px;
+  background-color: #ec5242;
+  width: 40px;
+  margin-left: 47%;
+}
+
+.program {
+  display: flex;
+  flex-direction: column;
+}
+
+.program1 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 5%;
+  align-items: center;
+  background-color: rgba(203, 194, 228, 0.1);
+}
+
+.program1:hover {
+  border: 1px solid white;
+}
+
+.imgicon {
+  width: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imgicon > img {
+  width: 50%;
+}
+
+.titleprogram {
+  width: 35%;
+  color: #ec5242;
+  font-size: 24px;
+  font-weight: 500;
+  padding-right: 5%;
+}
+
+.programdescr {
+  width: 55%;
+  padding-right: 5%;
+  font-size: 13px;
+  font-weight: 300;
+  color: whitesmoke;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.programdescr > p {
+  color: #fff;
+}
+
+.joinbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.buttojoin {
+  width: 200px;
+  background-color: #ec5242;
+  border: none;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 30px 0;
+}
+
+.speakersect {
+  background-color: white;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.speaktitle > h2 {
+  color: #272a31;
+  font-size: 26px;
+  font-weight: bolder;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.h1line {
+  height: 3px;
+  background-color: #ec5242;
+  width: 40px;
+}
+
+.cards {
+  margin-left: 2%;
+}
+
+.speakerbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 90%;
+  min-height: 150px;
+}
+
+.speaker1 {
+  width: 40%;
+  margin-right: 3%;
+}
+
+.speaker1 > img {
+  height: 150px;
+  width: 100%;
+  position: initial;
+}
+
+.temp2 {
+  width: 55%;
+  margin-top: -5px;
+}
+
+.pad h3 {
+  color: #272a31;
+  font-size: 26px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.pad h5 {
+  color: #ec5242;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.temp2 p {
+  color: #272a31;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.button {
+  padding: 4%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.butmore {
+  border: 2px solid gray;
+  padding: 20px;
+  width: 80%;
+  text-align: center;
+  border-radius: 4px;
+  color: #272a31;
+}
+
+.Aboutsummit {
+  background-color: #f5f5f5;
+  left: 0;
+  margin-top: -6px;
+}
+
+.Aboutsummit .title {
+  text-align: center;
+}
+
+.Aboutsummit .descript {
+  margin: 3%;
+  width: 93%;
+  border: 1px solid #cecaca;
+  background-color: #fff;
+  text-align: center;
+}
+
+.Aboutsummit .time-venue {
+  text-align: center;
+}
+
+.copyrighttext p {
+  margin-bottom: 20px;
+}
+
+.Aboutsummit .descript p {
+  margin: 3%;
+  width: 90%;
+}
+
+.Aboutsummit .time-venue h6 {
+  margin-top: -9px;
+  text-decoration-line: underline;
+}
+
+.creative {
+  background-color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #cecaca;
+}
+
+.creative .programtitle {
+  text-align: center;
+  font-size: 20px;
+  color: #585858;
+  font-weight: 600;
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 8%;
+}
+
+.creative .programline {
+  height: 2px;
+  background-color: #ec5242;
+  width: 40px;
+  margin-left: 45%;
+  margin-top: 10px;
+}
+
+.creative .imgicon {
+  margin-left: 30%;
+  width: 35%;
+  padding-bottom: 45px;
+}
+
+.creative .program p {
+  width: 80%;
+  margin-left: 9%;
+}
+
+.pastceremony {
+  padding: 8%;
+  min-height: 400px;
+  min-height: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pastceremony .titleprogram h3 {
+  color: #272a31;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.pastceremony .titleprogram {
+  width: 100%;
+  text-align: center;
+}
+
+.pastceremony .programline {
+  height: 2px;
+  background-color: #ec5242;
+  width: 40px;
+  margin-left: -10%;
+  margin-top: -20px;
+}
+
+.pastceremony .lastceremony .ceremonylast {
+  min-height: 300px;
+  height: auto;
+  width: 350px;
+  background: rgb(238, 82, 60, 0.65);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  margin: 5% 0;
+  text-align: center;
+}
+
+.footerrlogo img {
+  width: 40%;
+}
+
+.partnerlogo .partnerimg img {
+  width: 100%;
+}
+
+.pastceremony .lastceremony .ceremonylast img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  z-index: -1;
+  height: 100%;
+}
+
+.pastceremony .lastceremony .ceremonylast .pastyear {
+  padding-top: 30%;
+}
+
+.pastceremony .lastceremony .ceremonylast .pastyear h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: -10px;
+}
+
+.pastceremony .lastceremony .ceremonylast .pasttext {
+  margin-top: 2%;
+}
+
+.pastceremony .lastceremony .ceremonylast p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.partner {
+  display: block;
+  min-height: 200px;
+  height: auto;
+  background-color: #424146;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.partnertitle {
+  padding: 20px 0;
+}
+
+.partnertitle h2 {
+  color: rgb(196, 196, 196);
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.partnerline {
+  height: 2px;
+  background-color: #ec5242;
+  width: 40px;
+  margin-left: 47%;
+  margin-top: -28px;
+}
+
+.copyrighttext {
+  width: 50%;
+  padding: 20px 0;
+}
+
+.partnerlogo {
+  padding: 10px 8%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.partnerlogo .partnerimg {
+  width: 80px;
+}
+
+.footer {
+  background-color: white;
+  min-height: 100px;
+  height: auto;
+  padding: 27px 10%;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 201px;
+}
+
+.footerrlogo {
+  width: 50%;
+  margin-top: 35px;
+}
+
+.deskheader {
+  display: none;
+}
+
+.navlist {
+  display: none;
+}
+
+.navlist1 {
+  display: none;
+}
+
+.navlist1 .linkmenu1 {
+  display: flex;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: #3c3a39;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 232;
+  height: 700px;
+  transition: 0.5s ease-in;
+}
+
+.joinbutton a {
+  display: none;
+}
+
+.navlist1 .linkmenu1 ul li {
+  margin-bottom: 30px;
+  border-bottom: 2px solid #f5f5f5;
+  margin-right: 40px;
+}
+
+.navlist1 .linkmenu1 ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.navlist1 .linkmenu1 ul li a:hover {
+  color: #ec5242;
+}
+
+.close-x {
+  display: flex;
+  justify-content: end;
+  font-size: 57px;
+  width: 92%;
+  color: #f5f5f5;
+}
+
+.line {
+  height: 1px;
+  background-color: #969696;
+  width: 40px;
+}
+
+.partnerindex {
+  display: none;
+}
+
+.footerindex {
+  display: none;
+}
+
+.footerabout {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .index-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    background-color: #3e3e3e;
+    padding-right: 7%;
+  }
+
+  .navlist1 {
+    display: none;
+  }
+
+  .menubar {
+    display: none;
+  }
+
+  .deskheader {
+    display: flex;
+  }
+
+  .deskheader ul {
+    padding-right: 10%;
+    display: flex;
+  }
+
+  .deskheader ul li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 10px;
+  }
+
+  .joinbutton {
+    height: auto;
+  }
+
+  .joinbutton a {
+    color: white;
+    display: block;
+    padding: 56px;
+  }
+
+  .joinbutton button {
+    display: none;
+  }
+
+  .deskheader ul li a .facebooklogo {
+    height: 14px;
+    width: 8px;
+    margin-top: 12px;
+    position: absolute;
+    top: 7px;
+    right: 352px;
+  }
+
+  .deskheader ul li a .twitterlogo {
+    right: 323px;
+    height: 14px;
+    width: 17px;
+    position: absolute;
+    margin-top: 12px;
+    top: 7px;
+    margin-left: 2px;
+  }
+
+  .deskheader ul li a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+
+  .deskheader ul li a .english {
+    margin-top: 20px;
+    position: absolute;
+    top: -1px;
+    right: 261px;
+  }
+
+  .deskheader ul li a .mypage {
+    margin-top: 20px;
+    position: absolute;
+    top: -1px;
+    right: 200px;
+  }
+
+  .deskheader ul li a .logout {
+    margin-top: 20px;
+    position: absolute;
+    top: -1px;
+    right: 147px;
+  }
+
+  .navlist {
+    display: flex;
+    height: 80px;
+    background-color: white;
+    flex-direction: row;
+    padding: 0 15%;
+  }
+
+  .logocontainer img {
+    height: 90%;
+    margin-top: 5%;
+  }
+
+  .linkmenu {
+    transition: var(--trans);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .linkmenu ul {
+    list-style: none;
+    float: left;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 6%;
+    margin-top: 20px;
+  }
+
+  .linkmenu ul li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 6%;
+    color: #272a31;
+  }
+
+  .linkmenu ul li a {
+    text-decoration: none;
+    padding: 4px 10px;
+    color: var(--dark);
+    border-bottom: 1px solid #d3d3d35b;
+  }
+
+  .linkmenu .menubutton a {
+    color: #ec5242;
+    text-decoration: none;
+    border: none;
+  }
+
+  .linkmenu ul li a:hover {
+    color: #ec5242;
+  }
+
+  .linkmenu .menubutton {
+    width: 180px;
+    margin-top: 10px;
+    height: 30px;
+    border: 2px solid #ec5242;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .summit .title {
+    padding: 0 15%;
+  }
+
+  .summit .descrp21 {
+    padding: 0 15%;
+  }
+
+  .program {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 15%;
+  }
+
+  .program1 {
+    background-color: rgba(203, 194, 228, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 2px;
+    min-height: 250px;
+  }
+
+  .imgicon {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin-top: 21px;
+    flex-direction: row;
+    justify-content: center;
+    height: 80px;
+  }
+
+  .titleprogram {
+    width: 100%;
+    text-align: center;
+  }
+
+  .programdescr {
+    text-align: center;
+    width: 80%;
+    padding: 10% 10%;
+    font-size: 9px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .pad h3 {
+    color: #272a31;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-bottom: -17px;
+  }
+
+  .pad h5 {
+    color: #ec5242;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: -6px;
+  }
+
+  .line {
+    height: 1px;
+    background-color: #969696;
+    width: 40px;
+    margin-top: 9px;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .partnerindex {
+    display: block;
+    min-height: 200px;
+    height: auto;
+    background-color: #424146;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .footerindex {
+    background-color: rgb(219, 219, 219);
+    min-height: 100px;
+    height: auto;
+    padding: 27px 10%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 201px;
+  }
+
+  .abouttitle-h2 {
+    display: none;
+  }
+
+  .abouttitle-h1 {
+    color: #ec5242;
+    font-size: 68px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    padding: 6% 6% 1% 6%;
+    margin-top: 1%;
+  }
+
+  .Aboutsummit .descript {
+    margin: 3% 15% 6% 15%;
+    width: 70%;
+    border: 1px solid #cecaca;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .Aboutsummit .time-venue {
+    text-align: center;
+    padding-bottom: 2px;
+  }
+
+  .creative .program {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15%;
+  }
+
+  .lastceremony {
+    display: flex;
+  }
+
+  .pastceremony .lastceremony .ceremonylast {
+    min-height: 268px;
+    height: auto;
+    width: 350px;
+    background: rgb(238, 82, 60, 0.65);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    margin: 1%;
+    text-align: center;
+  }
+
+  .pastceremony .lastceremony .ceremonylast .pastyear {
+    padding-top: 18%;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .footerabout {
+    background-color: rgb(24, 24, 24);
+    min-height: 95px;
+    height: auto;
+    padding: 1px 10%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 1px;
+  }
+
+  .footerabout .footerrlogo {
+    width: 40%;
+    margin-top: 35px;
+    margin-left: 2%;
+  }
+
+  .footerabout .copyrighttext {
+    width: 100%;
+    padding: 19px 0;
+    color: white;
+  }
+}
