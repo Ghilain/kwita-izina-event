@@ -56,7 +56,7 @@ set up on github pages
 
 ## Authors
 
-👤 **Sangwa Didier**
+👤 **Ghilain ISHIMWE**
 
 - GitHub: [Ghilain Iishimwe](https://github.com/Ghilain)
 - Twitter: [GhilainIshimwe](https://twitter.com/GhilainIshimwe)
