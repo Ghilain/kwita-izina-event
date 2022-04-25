@@ -56,9 +56,9 @@ set up on github pages
 
 ## Authors
 
-👤 **Ghilain ISHIMWE**
+👤 **Ghilain Ishimwe**
 
-- GitHub: [Ghilain Iishimwe](https://github.com/Ghilain)
+- GitHub: [Ghilain Ishimwe](https://github.com/Ghilain)
 - Twitter: [GhilainIshimwe](https://twitter.com/GhilainIshimwe)
 - LinkedIn: [Ghilain Ishimwe](https://www.linkedin.com/in/ghilain-ishimwe-067a5b1b4/)
 
