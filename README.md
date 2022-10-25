@@ -11,7 +11,7 @@ And happen every year.
 
 ## Live Demo 
 
-Live Demo: [Click here for Live Demo](https://ghilain.github.io/capstone1/index.html)
+Live Demo: [Click here for Live Demo](https://ghilain.github.io/kwita-izina-event/)
 
 
 ## Description video
@@ -66,7 +66,7 @@ set up on github pages
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Ghilain/capstone1).
+Feel free to check the [issues page](https://github.com/Ghilain/kwita-izina-event).
 
 ## Show your support
 
